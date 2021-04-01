@@ -45,7 +45,7 @@ Y compruebo también que estén funcionando Apache y MySQL.
 ![MySQL](capturas/11.PNG)
 
 ## Configuración del adaptador de red
-Primero modifiqué los archivos ```/etc/netplan/00-installer-config.yaml``` (yo le dejé el nombre que traía por defecto, pero se puede poner cualquier nombre con tal de que acabe en .yaml). Así cambié la configuración de la interfaz ```enp0s8``` que es la conexión solo anfitrión para que tenga una IP estática en vez de utilizar DHCP. Como el adaptador tenía de IP ```192.168.56.1```, a la primera máquina le puse ```192.168.56.2``` y ```192.168.56.3``` a la segunda.
+Primero modifiqué los archivos ```/etc/netplan/00-installer-config.yaml``` (yo le dejé el nombre que traía por defecto, pero se puede poner cualquier nombre con tal de que tenga la extensión .yaml). Así cambié la configuración de la interfaz ```enp0s8``` que es la conexión solo anfitrión para que tenga una IP estática en vez de utilizar DHCP. Como el adaptador tenía de IP ```192.168.56.1```, a la primera máquina le puse ```192.168.56.2``` y ```192.168.56.3``` a la segunda.
 
 El archivo por defecto:
 
